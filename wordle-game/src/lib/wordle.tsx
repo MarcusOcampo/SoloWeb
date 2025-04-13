@@ -1,4 +1,4 @@
-export const words: string[] = ["apple", "peach", "grape", "mango", "lemon", "berry"]; // sample words
+export const words: string[] = ["apple", "peach", "grape", "mango", "lemon", "berry", "jolly"]; // sample words
 export const maxTries: number = 6;
 
 export function generateRandomWord(): string {
