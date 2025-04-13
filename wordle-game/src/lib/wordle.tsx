@@ -8,7 +8,7 @@ export function generateRandomWord(): string {
 export type GuessResult = "correct" | "present" | "absent";
 
 export function checkGuess(word: string, guess: string): GuessResult[] {
-  let result: GuessResult[] = [];
+  const result: GuessResult[] = [];
 
   for (let i = 0; i < word.length; i++) {
     if (guess[i] === word[i]) {
