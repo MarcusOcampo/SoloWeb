@@ -51,7 +51,7 @@ export default function Home() {
             value={currentGuess}
             onChange={(e) => setCurrentGuess(e.target.value.toUpperCase())}
             maxLength={5}
-            className="text-center text-2xl w-24 p-2 border border-gray-300 rounded"
+            className="text-center text-2xl w-24 p-2 border border-gray-300 rounded bg-white text-black"
             disabled={gameStatus !== null} // disable the input if the game is over
           />
           <button
